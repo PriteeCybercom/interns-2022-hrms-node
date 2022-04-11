@@ -1,0 +1,47 @@
+[
+    {
+        "method": "get",
+        "path": "/",
+        "controller": "interviewtypemastercontroller.get",
+        "middlewares": [],
+        "userRole": [],
+        "global": false,
+        "protected": false
+    },
+    {
+        "method": "post",
+        "path": "/",
+        "controller": "interviewtypemastercontroller.post",
+        "middlewares": [],
+        "userRole": [],
+        "global": false,
+        "protected": false
+    },
+    {
+        "method": "put",
+        "path": "/:id",
+        "controller": "interviewtypemastercontroller.put",
+        "middlewares": [],
+        "userRole": [],
+        "global": false,
+        "protected": false
+    },
+    {
+        "method": "delete",
+        "path": "/:id",
+        "controller": "interviewtypemastercontroller.delete",
+        "middlewares": [],
+        "userRole": [],
+        "global": false,
+        "protected": false
+    },
+    {
+        "method": "put",
+        "path": "/:id/:status",
+        "controller": "interviewtypemastercontroller.changeisactive",
+        "middlewares": [],
+        "userRole": [],
+        "global": false,
+        "protected": false
+    }
+]
