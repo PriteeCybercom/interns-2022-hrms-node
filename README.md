@@ -36,5 +36,5 @@ framework [command] [arguments]
     -  use This Command For Add New Model
     <br><br>
     ```
-        framework addModel [ModelName]
+        framework addModel [ModelName] Darpan
     ```
