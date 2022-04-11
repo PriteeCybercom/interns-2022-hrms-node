@@ -1,0 +1,38 @@
+[
+        {
+            "method": "get",
+            "path": "/",
+            "controller": "holidaycontroller.getDetails",
+            "middlewares": [],
+            "userRole": [],
+            "global": false,
+            "protected": false
+        },
+        {
+            "method": "post",
+            "path": "/add",
+            "controller": "holidaycontroller.addDetails",
+            "middlewares": ["holiday.inputCheck", "holiday.validateDate"],
+            "userRole": [],
+            "global": false,
+            "protected": false
+        },
+        {
+            "method": "put",
+            "path": "/update/:id",
+            "controller": "holidaycontroller.updateDetails",
+            "middlewares": ["holiday.inputCheck", "holiday.validateDate"],
+            "userRole": [],
+            "global": false,
+            "protected": false
+        },
+        {
+            "method": "post",
+            "path": "/delete/:id",
+            "controller": "holidaycontroller.deleteDetails",
+            "middlewares": [],
+            "userRole": [],
+            "global": false,
+            "protected": false
+        }
+]

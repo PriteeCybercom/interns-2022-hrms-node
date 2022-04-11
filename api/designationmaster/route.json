@@ -1,0 +1,39 @@
+[
+    {
+    "method": "get",
+    "path": "/",
+    "controller": "designation.getDesignation",
+    "middlewares": [],
+    "access":[],
+    "global":false
+},{
+    "method": "post",
+    "path": "/",
+    "controller": "designation.createDesignation",
+    "middlewares": [],
+    "access":[],
+    "globlal":false
+},{
+    "method": "put",
+    "path": "/:id",
+    "controller": "designation.updateDesignation",
+    "middlewares": [],
+    "access":[],
+    "globlal":false
+},{
+    "method": "delete",
+    "path": "/:id",
+    "controller": "designation.deleteDesignation",
+    "middlewares": [],
+    "access":[],
+    "globlal":false
+},{
+    "method":"patch",
+    "path":"/:id/:status",
+    "controller":"designation.patchDesignation",
+    "middlewares":[],
+    "access":[],
+    "globlal":false
+}
+
+]
