@@ -11,6 +11,10 @@ const coreMiddleware = require('./globals/globalMiddleware');
 const moduleViseServices = require('./globals/moduleViseServices');
 const moduleViseFunctions = require('./globals/moduleViseFunctions'); 
 
+
+const { Op } = require("sequelize");
+global.Op=Op
+
 const ModuleFolderName = appConfig.appConfig.apiFolderName;
 
 framework.module = appConfig.appConfig.apiFolderName;
