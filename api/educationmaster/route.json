@@ -1,0 +1,40 @@
+[   {
+    "method": "get",
+    "path": "/",
+    "controller": "education.getEducation",
+    "middlewares": [],
+    "access":[],
+    "global":false
+},
+{
+    "method": "post",
+    "path": "/",
+    "controller": "education.createEducation",
+    "middlewares": [],
+    "access":[],
+    "global":false
+},
+{
+    "method": "put",
+    "path": "/:id",
+    "controller": "education.updateEducation",
+    "middlewares": [],
+    "access":[],
+    "global":false
+},
+{
+    "method": "delete",
+    "path": "/:id",
+    "controller": "education.deleteEducation",
+    "middlewares": [],
+    "access":[],
+    "global":false
+},{
+    "method": "patch",
+    "path": "/:id/:status",
+    "controller": "education.patchEducation",
+    "middlewares": [],
+    "access":[],
+    "global":false
+}
+]
