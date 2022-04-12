@@ -1,0 +1,47 @@
+[
+    {
+        "method": "get",
+        "path": "/",
+        "controller": "jobchangereasonmastercontroller.get",
+        "middlewares": [],
+        "userRole": [],
+        "global": false,
+        "protected": false
+    },
+    {
+        "method": "post",
+        "path": "/",
+        "controller": "jobchangereasonmastercontroller.post",
+        "middlewares": [],
+        "userRole": [],
+        "global": false,
+        "protected": false
+    },
+    {
+        "method": "put",
+        "path": "/:id",
+        "controller": "jobchangereasonmastercontroller.put",
+        "middlewares": [],
+        "userRole": [],
+        "global": false,
+        "protected": false
+    },
+    {
+        "method": "delete",
+        "path": "/:id",
+        "controller": "jobchangereasonmastercontroller.delete",
+        "middlewares": [],
+        "userRole": [],
+        "global": false,
+        "protected": false
+    },
+    {
+        "method": "put",
+        "path": "/:id/:status",
+        "controller": "jobchangereasonmastercontroller.changeisactive",
+        "middlewares": [],
+        "userRole": [],
+        "global": false,
+        "protected": false
+    }
+]
