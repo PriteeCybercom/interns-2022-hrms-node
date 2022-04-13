@@ -36,8 +36,9 @@ module.exports.put=(req,res,next)=>{
     .then((data)=>{
       if(data==0){
         res.status(404).send("not found for updating")
+      }else{
+        res.status(201).send("updated succesfully")
       }
-      res.status(201).send("updated succesfully")
     }).catch((err)=>{
       res.status(404).send(err)
     })
@@ -54,8 +55,9 @@ module.exports.delete=(req,res,next)=>{
     .then((data)=>{
       if(data==0){
         res.status(404).send("not found for deleting")
+      }else{
+        res.status(200).send("deleted succesfully")
       }
-      res.status(200).send("deleted succesfully")
     }).catch((err)=>{
       res.status(404).send(err)
     })
