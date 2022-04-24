@@ -1,9 +1,9 @@
 const e = require("express")
 
-module.exports.createDesignation = async (body) => {
+module.exports.createEducation = async (body) => {
     try {
         
-        const response = await framework.db.designationmaster.create({
+        const response = await framework.db.educationmaster.create({
             title: body.title,
             status: Boolean(body.status),
             deletedAt: null
@@ -13,9 +13,9 @@ module.exports.createDesignation = async (body) => {
         return e;
     }
 }
-module.exports.getDesignation = async () => {
+module.exports.getEducation = async () => {
     try {
-        const response = await framework.db.designationmaster.findAll({
+        const response = await framework.db.educationmaster.findAll({
             where: {
                 deletedAt: null
             }
@@ -25,9 +25,9 @@ module.exports.getDesignation = async () => {
         return e;
     }
 }
-module.exports.updateDesignation = async (body) => {
+module.exports.updateEducation = async (body) => {
     try {
-        const response = await framework.db.designationmaster.update({
+        const response = await framework.db.educationmaster.update({
             title: body.title,
             status: Boolean(Number(body.status))
         }, {
