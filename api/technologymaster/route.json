@@ -1,0 +1,56 @@
+[
+    {
+        "method": "get",
+        "path": "/",
+        "controller": "technologymastercontroller.get",
+        "middlewares": [],
+        "userRole": [],
+        "global": false,
+        "protected": false
+    },
+    {
+        "method": "post",
+        "path": "/",
+        "controller": "technologymastercontroller.post",
+        "middlewares": [],
+        "userRole": [],
+        "global": false,
+        "protected": false
+    },
+    {
+        "method": "put",
+        "path": "/:id",
+        "controller": "technologymastercontroller.put",
+        "middlewares": [],
+        "userRole": [],
+        "global": false,
+        "protected": false
+    },
+    {
+        "method": "delete",
+        "path": "/:id",
+        "controller": "technologymastercontroller.delete",
+        "middlewares": [],
+        "userRole": [],
+        "global": false,
+        "protected": false
+    },
+    {
+        "method": "put",
+        "path": "/:id/:status",
+        "controller": "technologymastercontroller.changeisactive",
+        "middlewares": [],
+        "userRole": [],
+        "global": false,
+        "protected": false
+    },
+    {
+        "method": "get",
+        "path": "/parentlist",
+        "controller": "technologymastercontroller.getparentlist",
+        "middlewares": [],
+        "userRole": [],
+        "global": false,
+        "protected": false
+    }
+]
