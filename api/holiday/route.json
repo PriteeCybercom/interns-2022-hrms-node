@@ -34,5 +34,14 @@
             "userRole": [],
             "global": false,
             "protected": false
+        },
+        {
+            "method": "post",
+            "path": "/delete",
+            "controller": "holidaycontroller.deleteDetails",
+            "middlewares": [],
+            "userRole": [],
+            "global": false,
+            "protected": false
         }
 ]
